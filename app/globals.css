@@ -25,3 +25,24 @@ body {
     text-wrap: balance;
   }
 }
+
+@layer utilities {
+  @keyframes slide-in-from-right {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+  .animate-in {
+    animation-duration: 200ms;
+    animation-timing-function: ease-out;
+    animation-fill-mode: both;
+  }
+  
+  .slide-in-from-right {
+    animation-name: slide-in-from-right;
+  }
+}
