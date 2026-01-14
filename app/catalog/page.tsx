@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect, useMemo } from 'react';
+import { Suspense, useState, useEffect, useMemo } from 'react';
 import { useSearchParams } from 'next/navigation';
 import Link from 'next/link';
 import { Grid, List, SlidersHorizontal, Star, X } from 'lucide-react';
@@ -12,7 +12,7 @@ import Input from '@/components/ui/Input';
 import { formatPrice, calculateDiscount } from '@/lib/utils';
 import { Product } from '@/types';
 
-export default function CatalogPage() {
+function CatalogContent() {
   const searchParams = useSearchParams();
   const [viewMode, setViewMode] = useState<'grid' | 'list'>('grid');
   const [showFilters, setShowFilters] = useState(false);
@@ -466,5 +466,17 @@ function ProductCardList({ product }: { product: Product }) {
         </div>
       </Card>
     </Link>
+  );
+}
+
+export default function CatalogPage() {
+  return (
+    <Suspense fallback={
+      <div className="container mx-auto px-4 py-16 text-center">
+        <p>Loading catalog...</p>
+      </div>
+    }>
+      <CatalogContent />
+    </Suspense>
   );
 }
