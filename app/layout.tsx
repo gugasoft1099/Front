@@ -1,10 +1,7 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Dukanym",
@@ -26,7 +23,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="tk" dir="ltr">
-      <body className={inter.className}>
+      <body className="font-sans">
         <Navbar />
         <main>{children}</main>
         <Footer />

@@ -35,7 +35,7 @@ export const products: Product[] = [
     name: "Krossowka",
     price: 450,
     description: "Ýokary hilli sport aýakgaby",
-    image: "/p1.jpg",
+    image: "/p1.svg",
     category: "Sport",
   },
   {
@@ -43,7 +43,7 @@ export const products: Product[] = [
     name: "Smartfon",
     price: 3500,
     description: "Häzirki zaman telefon",
-    image: "/p2.jpg",
+    image: "/p2.svg",
     category: "Elektronika",
   },
   {
@@ -51,7 +51,7 @@ export const products: Product[] = [
     name: "Köýnek",
     price: 280,
     description: "Gyş möwsümi üçin ýyly köýnek",
-    image: "/p3.jpg",
+    image: "/p3.svg",
     category: "Egin-eşik",
   },
   {
@@ -59,7 +59,7 @@ export const products: Product[] = [
     name: "Kitap toplumy",
     price: 150,
     description: "Meşhur edebiýat kitaplary",
-    image: "/p4.jpg",
+    image: "/p4.svg",
     category: "Kitaplar",
   },
   {
@@ -67,7 +67,7 @@ export const products: Product[] = [
     name: "Oýunjak",
     price: 95,
     description: "Çagalar üçin öwredijilik oýunjak",
-    image: "/p5.jpg",
+    image: "/p5.svg",
     category: "Çagalar üçin",
   },
   {
@@ -75,7 +75,7 @@ export const products: Product[] = [
     name: "Noutbuk",
     price: 5200,
     description: "Güýçli iş noutbugy",
-    image: "/p6.jpg",
+    image: "/p6.svg",
     category: "Elektronika",
   },
   {
@@ -83,7 +83,7 @@ export const products: Product[] = [
     name: "Stol lampasy",
     price: 180,
     description: "LED lampasy öý üçin",
-    image: "/p7.jpg",
+    image: "/p7.svg",
     category: "Öý üçin",
   },
   {
@@ -91,7 +91,7 @@ export const products: Product[] = [
     name: "Futbol topy",
     price: 120,
     description: "Hünär derejeli futbol topy",
-    image: "/p8.jpg",
+    image: "/p8.svg",
     category: "Sport",
   },
 ];

@@ -1,4 +1,18 @@
-# Placeholder images needed:
-# - hero.jpg (for hero section)
-# - p1.jpg through p8.jpg (for product images)
-# Users should add actual image files here
+# Public Assets Directory
+
+This directory contains static assets like images.
+
+## Current SVG Placeholders
+
+The following SVG placeholder images are included for development:
+- `hero.svg` - Hero section placeholder
+- `p1.svg` through `p8.svg` - Product image placeholders
+
+## Replacing Placeholders
+
+To use real images:
+1. Replace the SVG files with actual JPG/PNG images
+2. Keep the same filenames (hero.jpg, p1.jpg, etc.) OR
+3. Update the image paths in `lib/data.ts` and `app/page.tsx`
+
+You can also use remote images from Unsplash, Pexels, or Pixabay (configured in next.config.js).

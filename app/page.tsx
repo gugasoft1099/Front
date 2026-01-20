@@ -33,7 +33,7 @@ export default function Home() {
             </div>
             <div className="relative h-64 md:h-96">
               <Image
-                src="/hero.jpg"
+                src="/hero.svg"
                 alt="Hero Image"
                 fill
                 className="object-cover rounded-lg"
