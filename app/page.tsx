@@ -13,8 +13,8 @@ export default function Home() {
                 Dukanym-a hoş geldiňiz
               </h1>
               <p className="text-lg md:text-xl mb-8 text-blue-100">
-                Iň ýokary hilli önümleri elýeterli bahalardan tapyň. Türkmenistanyň 
-                iň ygtybarly onlaýn dükany.
+                Iň ýokary hilli önümleri elýeterli bahalardan tapyň.
+                Türkmenistanyň iň ygtybarly onlaýn dükany.
               </p>
               <div className="flex gap-4">
                 <a
